@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              '$currentNoitaDirectory',
+              currentNoitaDirectory ?? "Failed to find Noita. Select noita folder with the + button",
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Text(
